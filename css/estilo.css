@@ -310,6 +310,31 @@ i{
 	}
 }
 
+/*slider*/
+
+#caja9{
+	width: 1000px;
+	height: 400px;
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+#n-a, #n-b, #n-c, #n-bd, #n-e, #n-f{
+	width: 1000px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 1024px){
+	#caja9{
+		width: auto;
+		height: 200px;
+		display: flex;
+	}
+}
+
 /*caja cinco*/
 
 .box-5{
