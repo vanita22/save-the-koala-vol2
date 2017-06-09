@@ -225,15 +225,15 @@ army green: 41521F;
 	}
 }
 
-#tres{
-	width: auto;
-	height: auto;
+#tres{	
 	background-color: #41521F;
+	border: 2px solid #41521F;
 	color: white; 
 }
 
 #cuatro{	
-	color: black; 
+	color: black;
+	height: 100px;
 }
 
 /*caja tres*/
@@ -419,6 +419,17 @@ i{
 	#texto4{
 		margin-bottom: 200px;
 	}
+}
+
+#seis{
+	color: black
+}
+
+#siete{
+	width: auto;
+	height: auto;
+	background-color: #41521F;
+	color: white; 
 }
 
 /*footer*/
