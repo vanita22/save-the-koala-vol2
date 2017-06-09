@@ -1,0 +1,418 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+*{
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/*menu*/
+.menus{
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.navbar{
+	background-color: transparent;	
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler { /*cambio de color del logo que viene por defecto*/
+    color: white;
+    font-size: 25px;  
+    font-weight: bold;  
+}
+
+.navbar-light .navbar-nav .nav-link { /* para cambiar el color y tamaños de letras que vienen por defecto*/
+    color: white;
+    font-size: 20px;
+    font-weight: bold;   /*pone las letras en negrita*/ 
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+
+.navbar-nav{                       
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 700px;  /*cambia hacia la derecha la posición de los link del menu*/
+    margin-bottom: 0;
+    list-style: none;   
+}
+
+@media (max-width: 1024px){
+	.navbar-nav{
+		padding-left: 100px; /*se ajustan los links hacia la izquiera cuando cambia el tamaño de la pantalla*/
+	}
+}
+
+.nav-item a{
+	margin-right: 55px;	
+}
+
+.menus .card-text{
+	color: white;
+}
+
+@media (max-width: 700px){
+	.menus .card{
+		margin-left: 5px;
+		margin-top: 90px;
+		width: 290px;		
+		display: flex;		
+	}
+	.navbar-toggler-right{
+		color: white;
+	}
+}
+
+/*bienvenidos*/
+
+.card{
+	background-color: transparent;
+	width: 400px;
+	height: auto;
+	margin-left: 140px;
+	margin-top: 250px;
+	font-weight: bold; 
+	display: flex;
+	border-style: none;
+}
+ 
+.card h4{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#pop{
+	width: auto;
+	height: auto;
+	background-color: #41521F;
+	color: white;
+}
+
+
+/*caja uno*/
+
+#caja-1 .card-img-top{
+	top: 0px;	
+}
+
+@media (max-width: 800px){
+	#caja-1 .card-img-top{
+		visibility: hidden;
+	}
+}
+
+.box-1 .card {
+    background-color: transparent;
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    display: flex; 
+    border-style: none;   
+}
+
+.box-1 #caja2 h2, .card-text{    
+    color: black;    
+}
+
+.box-1 h3{
+	color: #A89F68;
+}
+
+.box-1 .h2, h2 {
+    font-size: 16px;
+}
+
+.box-1 .card-group{
+	width: 600px;
+}
+
+@media (max-width: 800px){
+	.box-1 .card{
+		margin-top: -300px;		
+		width: 300px;
+	}
+	.box-1 .card-group{
+		width: 300px;
+		margin-top: 320px;		
+	}
+	.box-1 #card1{
+		width: 300px;
+		margin-top: 20px;		
+	}
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+	#caja-1 .card-img-top{
+		visibility: hidden;
+	}
+	.box-1 .card{
+		margin-top: 30px;		
+		width: 600px;
+		margin-left: -300px;
+	}
+	.box-1 .card-group{
+		width: 300px;
+		margin-top: 10px;		
+	}
+	.box-1 #card1{
+		width: 300px;
+		margin-top: 20px;		
+	}
+}
+
+/*caja dos*/
+
+.box-2{
+	background-color: #A89F68;
+	width: 100%;
+	height: 70vh;
+	display: flex;		
+}
+
+.box-2 .card{
+	margin-top: 70px;
+	border-style: none;	
+}
+
+.box-2 h3{   
+    color: #41521F;
+}
+
+.box-2 .btn-success {
+    color: #fff;
+    background-color: #41521F;
+    border-color: #41521F;
+}
+
+.box-2 h2, #texto {
+    color: white;
+}
+
+.box-2 .card-img-top{
+	border: 10px solid white;
+}
+
+@media (max-width: 1024px){
+	.box-2{
+		height: auto;
+	}
+	.box-2 .card{
+		width: 280px;
+		margin-left: 30px;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.box-2 .card-img-top{
+		width: 270px;
+	}
+}
+
+#tres{
+	width: auto;
+	height: auto;
+	background-color: #41521F;
+	color: white; 
+}
+
+#cuatro{	
+	color: black; 
+}
+
+/*caja tres*/
+
+.box-3{
+	background-image: url(../img/all.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 130vh;
+	display: flex;	
+}
+
+.box-3 #texto2{
+	color: white;
+}
+
+.box-3 #box-a{
+	margin-left: 670px; 
+	margin-top: 70px;
+}
+
+@media (max-width: 1024px){
+	.box-3 #box-a{
+		margin-left: 40px; 
+		margin-top: 70px;
+	}
+}
+
+/*caja cuatro*/
+
+.box-4{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.box-4 #caja4{
+	width: 1000px;
+	margin-top: 100px;
+	border-style: none;
+}
+
+.box-4 #caja5{
+	margin-top: -200px;
+	margin-left: -140px;	
+}
+
+.box-4 #texto3{
+	color: #A89F68;
+	text-align: center;
+	font-size: 25px;
+	background-color: transparent;
+	border-style: none;
+}
+
+i{
+	color: #A89F68;
+	display: flex;	
+}
+
+.box-4 .fa{
+	font-size: 70px;
+}
+
+.box-4 .card{
+	border-style: none;
+}
+
+@media (max-width: 1024px){
+	.box-4{
+		margin-left: -140px;		
+	}
+	#caja5{
+		width: auto;		
+	}
+}
+
+/*caja cinco*/
+
+.box-5{
+	background-color: #A89F68;
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.box-5 #caja6{
+	width: 1100px;
+	margin-top: 100px;
+	border-style: none;
+}
+
+.box-5 #caja7{
+	margin-top: -200px;
+	margin-left: -200px;	
+}
+
+
+.box-5 #texto4 {
+	color: #41521F;
+	text-align: center;
+	font-size: 25px;
+	background-color: transparent;
+	border-style: none;
+}
+
+
+#peso{
+	color: white;
+	display: flex;	
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.box-5 #grand{
+	font-size: 80px;
+	margin-left: 1px;	
+}
+
+.box-5 #peque{
+	font-size: 14px;
+	color: white;	
+}
+
+
+.box-5 .card{
+	border-style: none;
+}
+
+.linea{
+	width: 100%;
+	border: 1px solid white;
+	margin-bottom: 3px;
+}
+
+#titulo{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.box-5 .btn-success {
+    color: #fff;
+    background-color: #41521F;
+    border-color: #41521F;
+}
+
+
+@media (max-width: 1024px){
+	.box-5{
+		margin-left: -140px;
+		width: auto;
+	}
+	#caja7{
+		width: auto;
+	}
+	#caja8{
+		margin-top: 20px;
+	}
+	#texto4{
+		margin-bottom: 200px;
+	}
+}
+
+/*footer*/
+
+footer{
+	background-color: #41521F;
+	width: 100%;
+	height: auto;
+}
+
+#box-6{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#texto5{
+	color: #A89F68;
+}
+
+#texto6{
+	color: white;
+}
