@@ -98,11 +98,14 @@ army green: 41521F;
 	font-weight: bold;
 }
 
+/*tooltip*/
+
 #pop{
 	width: auto;
 	height: auto;
 	background-color: #41521F;
 	color: white;
+	border: 3px solid #41521F;
 }
 
 
@@ -421,6 +424,8 @@ i{
 	}
 }
 
+/*modal*/
+
 #seis{
 	color: black
 }
@@ -431,6 +436,8 @@ i{
 	background-color: #41521F;
 	color: white; 
 }
+
+/*collapse*/
 
 #nueve{
 	width: 350px;
